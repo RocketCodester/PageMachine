@@ -19,8 +19,6 @@ class MyClassTest extends TestCase
             ->with(LocalizationUtility::class, 'translate', 'foo')
             ->willReturn('translating foo');
 
-        $myClassInstance->doSomething();
-
         $this->assertEquals('translating foo', $myClassInstance->doSomething());
     }
 }

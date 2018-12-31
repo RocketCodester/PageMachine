@@ -2,7 +2,6 @@
 
 namespace MyClasses;
 
-
 class LocalizationUtility
 {
 
